@@ -1,0 +1,89 @@
+/* Temporary :: shall be removed */
+.temporary-border-c{
+    border: 1px solid black;
+}
+
+body{
+    background-color: dimgray;
+}
+
+/* External Container */
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    margin-top: 5rem;
+    background-color: whitesmoke;
+}
+
+/* minsec, timer section flex adjustments */
+#minsec,
+#timer,
+#panel,
+#display{
+    flex: 1;
+}
+
+#container-minsec,
+#timer{
+    display: flex;
+}
+
+#min,
+#sec,
+#timer-min,
+#timer-sec{
+    flex: 1;
+}
+
+/* minsec */
+#min,
+#sec,
+#timer-min,
+#timer-sec{
+    text-align: center;
+}
+
+#min,
+#sec{
+    background-color: #000;
+    color: gainsboro;
+}
+
+/* timer */
+#timer{
+    height: 3.5rem;
+}
+
+/* TODO: CHECK HOW TO ALIGN FLEX ITEMS IN CENTER */
+#timer-min,
+#timer-sec{
+    margin-top: 18px;
+}
+
+/* panel */
+#panel{
+    display: flex;
+    background-color: #000;
+    color: ghostwhite;
+    height: 40px;
+}
+
+#start-btn,
+#stop-btn,
+#lap-btn{
+    flex: 1;
+    margin: 4px 12px;
+}
+
+/* display section */
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-item{
+    background-color: lightslategray;
+    color: lime;
+}
