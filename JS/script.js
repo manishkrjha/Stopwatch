@@ -27,6 +27,9 @@ var start = () => {
     setInterval(()=>{
         if(nowStop != 0){
             startButton.innerText = 'restart';
+            startButton.addEventListener('click', ()=>{
+                window.location.reload();
+            });
             //add a eventlistener for 'restart' button that refreshes the page
             return;
         }
